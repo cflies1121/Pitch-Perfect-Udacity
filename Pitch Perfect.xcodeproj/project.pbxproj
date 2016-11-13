@@ -102,7 +102,7 @@
 		EAADAD8E1DD43F2D00F980DE /* slow2x-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slow2x-iphone.png"; sourceTree = "<group>"; };
 		EAADAD8F1DD43F2D00F980DE /* stop2x-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stop2x-iphone.png"; sourceTree = "<group>"; };
 		EAADADAA1DD831A700F980DE /* playSoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = playSoundsViewController.swift; sourceTree = "<group>"; };
-		EAADADAC1DD83E7D00F980DE /* playsoundsviewcontroller-audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "playsoundsviewcontroller-audio.swift"; path = "../../../../Downloads/playsoundsviewcontroller-audio.swift"; sourceTree = "<group>"; };
+		EAADADAC1DD83E7D00F980DE /* playsoundsviewcontroller-audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "playsoundsviewcontroller-audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -650,6 +650,7 @@
 				EAADAD6B1DCBAFC500F980DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAADAD6C1DCBAFC500F980DE /* Build configuration list for PBXNativeTarget "Pitch PerfectTests" */ = {
 			isa = XCConfigurationList;
@@ -658,6 +659,7 @@
 				EAADAD6E1DCBAFC500F980DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAADAD6F1DCBAFC500F980DE /* Build configuration list for PBXNativeTarget "Pitch PerfectUITests" */ = {
 			isa = XCConfigurationList;
@@ -666,6 +668,7 @@
 				EAADAD711DCBAFC500F980DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
