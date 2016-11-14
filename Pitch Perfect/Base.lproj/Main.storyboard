@@ -30,14 +30,14 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M03-VO-eDy" userLabel="snailButton">
                                                 <rect key="frame" x="0.0" y="0.0" width="171.5" height="151"/>
-                                                <state key="normal" image="slow2x-iphone.png"/>
+                                                <state key="normal" image="SnailButton"/>
                                                 <connections>
                                                     <action selector="playSoundForButton:" destination="lXK-aO-5Uf" eventType="touchUpInside" id="8R5-J7-1g9"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Seq-bG-EG5" userLabel="rabbitButton">
                                                 <rect key="frame" x="171.5" y="0.0" width="171.5" height="151"/>
-                                                <state key="normal" image="fast2x-iphone.png"/>
+                                                <state key="normal" image="RabbitButton"/>
                                                 <connections>
                                                     <action selector="playSoundForButton:" destination="lXK-aO-5Uf" eventType="touchUpInside" id="mJg-r1-KNG"/>
                                                 </connections>
@@ -49,14 +49,14 @@
                                         <subviews>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hxd-Ge-n0k" userLabel="chipmonkButton">
                                                 <rect key="frame" x="0.0" y="0.0" width="171.5" height="150.5"/>
-                                                <state key="normal" image="chipmunk2x-iphone.png"/>
+                                                <state key="normal" image="Chipmonk"/>
                                                 <connections>
                                                     <action selector="playSoundForButton:" destination="lXK-aO-5Uf" eventType="touchUpInside" id="RqD-eO-VnI"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vch-cG-SXO" userLabel="darthVaderButton">
                                                 <rect key="frame" x="171.5" y="0.0" width="171.5" height="150.5"/>
-                                                <state key="normal" image="darthvader2x-iphone.png"/>
+                                                <state key="normal" image="DarthVader"/>
                                                 <connections>
                                                     <action selector="playSoundForButton:" destination="lXK-aO-5Uf" eventType="touchUpInside" id="Tug-Qw-4Yh"/>
                                                 </connections>
@@ -68,14 +68,14 @@
                                         <subviews>
                                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QwH-mp-ql4" userLabel="echoButton">
                                                 <rect key="frame" x="0.0" y="0.0" width="171.5" height="151"/>
-                                                <state key="normal" image="echo.png"/>
+                                                <state key="normal" image="EchoButton"/>
                                                 <connections>
                                                     <action selector="playSoundForButton:" destination="lXK-aO-5Uf" eventType="touchUpInside" id="9zv-89-iNm"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQR-vZ-pcs" userLabel="reverbbutton">
                                                 <rect key="frame" x="171.5" y="0.0" width="171.5" height="151"/>
-                                                <state key="normal" image="reverb.png"/>
+                                                <state key="normal" image="ReverbButton"/>
                                                 <connections>
                                                     <action selector="playSoundForButton:" destination="lXK-aO-5Uf" eventType="touchUpInside" id="BQy-Ec-qNl"/>
                                                 </connections>
@@ -87,7 +87,7 @@
                                         <subviews>
                                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y0s-YI-Utw" userLabel="stopPlayback">
                                                 <rect key="frame" x="0.0" y="0.0" width="343" height="150.5"/>
-                                                <state key="normal" image="pause_80_blue.png"/>
+                                                <state key="normal" image="StopRecordingButton"/>
                                                 <connections>
                                                     <action selector="stopButtonPressed:" destination="lXK-aO-5Uf" eventType="touchUpInside" id="6Vh-bE-bUB"/>
                                                 </connections>
@@ -194,14 +194,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Chipmonk" width="100" height="100"/>
+        <image name="DarthVader" width="100" height="100"/>
+        <image name="EchoButton" width="80" height="80"/>
+        <image name="RabbitButton" width="100" height="100"/>
         <image name="RecordButton" width="100" height="100"/>
+        <image name="ReverbButton" width="80" height="80"/>
+        <image name="SnailButton" width="100" height="100"/>
         <image name="StopRecordingButton" width="50" height="50"/>
-        <image name="chipmunk2x-iphone.png" width="200" height="200"/>
-        <image name="darthvader2x-iphone.png" width="200" height="200"/>
-        <image name="echo.png" width="160" height="160"/>
-        <image name="fast2x-iphone.png" width="200" height="200"/>
-        <image name="pause_80_blue.png" width="80" height="80"/>
-        <image name="reverb.png" width="160" height="160"/>
-        <image name="slow2x-iphone.png" width="200" height="200"/>
     </resources>
 </document>
